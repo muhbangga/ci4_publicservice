@@ -313,7 +313,7 @@ class Beranda extends BaseController
     ";
 
         $email = \Config\Services::email();
-        $email->setFrom('bangpram22@gmail.com', 'PTSP-KanKemenag Kab. Pekalongan');
+        $email->setFrom('', '');
         $email->setTo($toEmail);
         $email->setSubject($subject);
         $email->setMessage($message);

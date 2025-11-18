@@ -33,7 +33,7 @@ class Email extends BaseConfig
     /**
      * SMTP Username
      */
-    public string $SMTPUser = 'bangpram22@gmail.com';
+    public string $SMTPUser = '';
 
     /**
      * SMTP Password

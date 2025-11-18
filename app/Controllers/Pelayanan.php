@@ -271,7 +271,7 @@ class Pelayanan extends BaseController
         // Menyiapkan email
         $email = \Config\Services::email();
 
-        $email->setFrom('bangpram22@gmail.com', 'PTSP-KanKemenag Kab. Pekalogan');
+        $email->setFrom('', '');
         $email->setTo($toEmail);
         $email->setSubject($subject);
         $email->setMessage($message);
@@ -482,7 +482,7 @@ class Pelayanan extends BaseController
 
         // Menyiapkan email
         $email = \Config\Services::email();
-        $email->setFrom('bangpram22@gmail.com', 'PTSP-KanKemenag Kab. Pekalongan');
+        $email->setFrom('', '');
         $email->setTo($toEmail);
         $email->setSubject($subject);
         $email->setMessage($message);
@@ -568,7 +568,7 @@ class Pelayanan extends BaseController
 
             // Menyiapkan email
             $email = \Config\Services::email();
-            $email->setFrom('bangpram22@gmail.com', 'PTSP-KanKemenag Kab. Pekalongan');
+            $email->setFrom(' ', 'PTSP-KanKemenag Kab. Pekalongan');
             $email->setTo($toEmail);
             $email->setSubject($subject);
             $email->setMessage($message);
@@ -646,7 +646,7 @@ class Pelayanan extends BaseController
 
             // Menyiapkan email
             $email = \Config\Services::email();
-            $email->setFrom('bangpram22@gmail.com', 'PTSP-KanKemenag Kab. Pekalongan');
+            $email->setFrom(' ', '');
             $email->setTo($toEmail);
             $email->setSubject($subject);
             $email->setMessage($message);
